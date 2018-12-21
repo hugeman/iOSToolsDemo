@@ -33,7 +33,10 @@
                                  @"className" : @"GesturesTableViewController",
                                  }];
     
-    
+    [self.dataSource addObject:@{
+                                 @"title" : @"循环播放视图",
+                                 @"className" : @"CycleAutoViewController",
+                                 }];
 }
 
 - (void)didReceiveMemoryWarning {

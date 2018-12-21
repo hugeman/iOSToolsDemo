@@ -16,6 +16,13 @@
 		D91B6CEF21368B0C00403BD5 /* ScrollViewGuestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B6CEE21368B0C00403BD5 /* ScrollViewGuestureViewController.m */; };
 		D91B6CF221368F6200403BD5 /* AnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B6CF121368F6200403BD5 /* AnimationsTableViewController.m */; };
 		D91B6CF521368F7000403BD5 /* GesturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B6CF421368F7000403BD5 /* GesturesTableViewController.m */; };
+		D966FFF321CCDE8C00AAE869 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D966FFEE21CCDE8C00AAE869 /* 0.jpg */; };
+		D966FFF421CCDE8C00AAE869 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D966FFEF21CCDE8C00AAE869 /* 4.jpg */; };
+		D966FFF521CCDE8C00AAE869 /* RollingBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D966FFF021CCDE8C00AAE869 /* RollingBanner.m */; };
+		D966FFF621CCDE8C00AAE869 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D966FFF121CCDE8C00AAE869 /* 2.jpg */; };
+		D966FFF721CCDE8C00AAE869 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D966FFF221CCDE8C00AAE869 /* 1.jpg */; };
+		D966FFFA21CCDEF900AAE869 /* CycleAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D966FFF921CCDEF900AAE869 /* CycleAutoViewController.m */; };
+		D966FFFD21CCE11F00AAE869 /* LYCycleAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966FFFC21CCE11F00AAE869 /* LYCycleAutoScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,16 @@
 		D91B6CF121368F6200403BD5 /* AnimationsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTableViewController.m; sourceTree = "<group>"; };
 		D91B6CF321368F7000403BD5 /* GesturesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesTableViewController.h; sourceTree = "<group>"; };
 		D91B6CF421368F7000403BD5 /* GesturesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesTableViewController.m; sourceTree = "<group>"; };
+		D966FFED21CCDE8B00AAE869 /* RollingBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBanner.h; sourceTree = "<group>"; };
+		D966FFEE21CCDE8C00AAE869 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		D966FFEF21CCDE8C00AAE869 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D966FFF021CCDE8C00AAE869 /* RollingBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBanner.m; sourceTree = "<group>"; };
+		D966FFF121CCDE8C00AAE869 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D966FFF221CCDE8C00AAE869 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D966FFF821CCDEF900AAE869 /* CycleAutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleAutoViewController.h; sourceTree = "<group>"; };
+		D966FFF921CCDEF900AAE869 /* CycleAutoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleAutoViewController.m; sourceTree = "<group>"; };
+		D966FFFB21CCE11F00AAE869 /* LYCycleAutoScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCycleAutoScrollView.h; sourceTree = "<group>"; };
+		D966FFFC21CCE11F00AAE869 /* LYCycleAutoScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCycleAutoScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +88,7 @@
 				D91B6CD32136886B00403BD5 /* AppDelegate.m */,
 				D91B6CE8213689CC00403BD5 /* MainTableViewController.h */,
 				D91B6CE9213689CC00403BD5 /* MainTableViewController.m */,
+				D966FFEC21CCDE0400AAE869 /* CycleAutoScrollView */,
 				D91B6CEB21368ABB00403BD5 /* Animations */,
 				D91B6CEC21368ABB00403BD5 /* Guestures */,
 				D91B6CD82136886B00403BD5 /* Main.storyboard */,
@@ -100,6 +118,23 @@
 				D91B6CEE21368B0C00403BD5 /* ScrollViewGuestureViewController.m */,
 			);
 			path = Guestures;
+			sourceTree = "<group>";
+		};
+		D966FFEC21CCDE0400AAE869 /* CycleAutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D966FFED21CCDE8B00AAE869 /* RollingBanner.h */,
+				D966FFF021CCDE8C00AAE869 /* RollingBanner.m */,
+				D966FFFB21CCE11F00AAE869 /* LYCycleAutoScrollView.h */,
+				D966FFFC21CCE11F00AAE869 /* LYCycleAutoScrollView.m */,
+				D966FFEE21CCDE8C00AAE869 /* 0.jpg */,
+				D966FFF221CCDE8C00AAE869 /* 1.jpg */,
+				D966FFF121CCDE8C00AAE869 /* 2.jpg */,
+				D966FFEF21CCDE8C00AAE869 /* 4.jpg */,
+				D966FFF821CCDEF900AAE869 /* CycleAutoViewController.h */,
+				D966FFF921CCDEF900AAE869 /* CycleAutoViewController.m */,
+			);
+			path = CycleAutoScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +196,10 @@
 			files = (
 				D91B6CDF2136886C00403BD5 /* LaunchScreen.storyboard in Resources */,
 				D91B6CDC2136886C00403BD5 /* Assets.xcassets in Resources */,
+				D966FFF721CCDE8C00AAE869 /* 1.jpg in Resources */,
+				D966FFF621CCDE8C00AAE869 /* 2.jpg in Resources */,
+				D966FFF421CCDE8C00AAE869 /* 4.jpg in Resources */,
+				D966FFF321CCDE8C00AAE869 /* 0.jpg in Resources */,
 				D91B6CDA2136886B00403BD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,8 +213,11 @@
 			files = (
 				D91B6CEA213689CC00403BD5 /* MainTableViewController.m in Sources */,
 				D91B6CE22136886C00403BD5 /* main.m in Sources */,
+				D966FFF521CCDE8C00AAE869 /* RollingBanner.m in Sources */,
 				D91B6CEF21368B0C00403BD5 /* ScrollViewGuestureViewController.m in Sources */,
+				D966FFFA21CCDEF900AAE869 /* CycleAutoViewController.m in Sources */,
 				D91B6CF521368F7000403BD5 /* GesturesTableViewController.m in Sources */,
+				D966FFFD21CCE11F00AAE869 /* LYCycleAutoScrollView.m in Sources */,
 				D91B6CF221368F6200403BD5 /* AnimationsTableViewController.m in Sources */,
 				D91B6CD42136886B00403BD5 /* AppDelegate.m in Sources */,
 			);
